@@ -10,9 +10,18 @@ var React = require('react');
 var SignaturePad = require('react-signature-pad');
 
 React.render(
-  <SignaturePad clearButton="true" />,
+  <SignaturePad clearButton="true"/>,
   document.body
 )
+```
+
+# Options
+
+- label: Define custom label for clear button (default: "clear")
+
+```javascript
+<SignaturePad clearButton="true" label="Empty" />
+
 ```
 
 # Methods
